@@ -183,10 +183,6 @@ function NetLib.DefineChannel<T...>(self, channelName: string, ...: T...): Chann
 	return _defineChannel("__Global", channelName, ...)
 end
 
-function NetLib:GetChannelId(name): number
-	return _remoteEvent:GetAttribute(name) :: number
-end
-
 function Namespace.DefineChannel<T...>(self: Namespace, channelName: string, ...: T...): Channel.Channel<T...>
 	return _defineChannel(self.namespaceName, channelName, ...)
 end
