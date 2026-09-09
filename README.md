@@ -1,4 +1,4 @@
-# LoomLib
+# LoomLib Open
 
 A collection of Luau libraries that I built from scratch to deepen my understanding of the language and to serve as reusable building blocks across my Roblox projects.
 
