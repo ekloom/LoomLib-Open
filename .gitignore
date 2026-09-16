@@ -1,0 +1,12 @@
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+/*.toml
+/.git
+/shared/README.md
+/APClient
+/APBridge
+*.gitattributes
+default.project.json
+sourcemap.json
